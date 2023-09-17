@@ -1,24 +1,19 @@
 namespace SRP
 {
     //The below code voilate SRP
-    class Customer
+   public  class Customer
     {
-        string name;
+        string? name;
         int age;
 
-        //properties 
-        public string Name { set { this.name = value; } get { return this.name; } }
-        //properties
-        public int Age { set { this.age = value; } get { return this.age; } }
-
-        public bool SaveCustomer(Customer obj)
+        public static bool SaveCustomer(Customer obj)
         {
             Console.WriteLine("Customer Data Save Succefull");
 
             return true;
         }
 
-        public bool SendEmail()
+        public static bool SendEmail()
         {
             Console.WriteLine("Sending Mail....");
             return true;
@@ -31,10 +26,7 @@ namespace SRP
       the customer class savCustomer data AND Send Email. 
 
     */
-
-
     //The below Code have avoid the voilation and Acheive SRP 
-
     public class Customer_
     {
         public void SaveCustomer()
@@ -45,9 +37,7 @@ namespace SRP
         /*here we can add more responsibiltes Like DeleteCustomer() , UpdateCustomer()
         the class should change for one resone which Customer 
         */
-
     }
-
     public class Customer_Email
     {
         public void Send_Email()
@@ -57,8 +47,17 @@ namespace SRP
 
         //here we can add more responsiblites related to Customer Email , Like -recive main
     }
-
-
-
-
 }
+/*
+The Customer class is now responsible solely for storing customer information. 
+It has no knowledge of email sending logic.
+
+· The EmailService class is introduced to handle email-related responsibilities. 
+It encapsulates the logic for sending email notifications.
+
+This refactoring adheres to the Single Responsibility Principle. 
+The Customer class has one reason to change (customer information-related changes), 
+and the EmailService class has one reason to change (email-related changes). 
+This separation makes the code more maintainable, easier to understand, 
+and allows each class to evolve independently as per their specific responsibilities.
+*/
