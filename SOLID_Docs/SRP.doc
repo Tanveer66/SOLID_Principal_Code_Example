@@ -1,0 +1,22 @@
+Single Responsibility Principle (SRP):
+The single responsibility principle indicates that a class, module, or function should 
+have only one reason to change, meaning it should do one thing.
+
+A “reason to change” in the context of SRP refers to any conceivable modification or
+alteration that a class might undergo during its lifetime. The reasons for this can be
+divided into several software system-related concerns or responsibilities.
+For instance, a class that manages both user authentication and database
+ interactions has two independent reasons to change: if the database schema 
+changes or the authentication mechanism needs to be updated.
+
+When a class accumulates multiple reasons to change, it becomes a tangled web 
+of responsibilities, blurring the lines between different concerns. 
+This is akin to juggling multiple balls at once, and as any experienced juggler 
+will tell you, the more balls you have in the air, the higher the chance of dropping one.
+
+Let’s look into an example in java to get more clear idea about this principle.
+
+Consider a scenario in which the Customer class is in charge of both email notifications 
+and the storage of customer data. Due to multiple reasons for change — one for 
+email-related modifications and another for customer-related changes — this class
+ violates SRP.

@@ -1,0 +1,29 @@
+The Open-Closed Principle (OCP)
+The open-closed principle states that classes, modules, and functions should be
+ open for extension but closed for modification. It is a fundamental guideline that 
+ plays a pivotal role in building robust and maintainable systems.
+
+Open for Extension :
+
+A software entity should be open for extension, allowing new or existing functionality 
+to be added or extended without altering its source code. This promotes flexibility and
+ adaptability in software by allowing users to build upon or customize a component’s 
+ behavior.
+
+Closed for modification :
+
+“Closed for modification” refers to a software entity’s source code remaining unchanged 
+after stability testing, ensuring reliability and unaffected by system changes, and 
+preventing new features or bug fixes, after thorough validation and testing.
+
+The Role of OCP in Building Robust Systems
+
+· Reduced Risk of Bugs
+
+· Enhanced Scalability
+
+· Encapsulation
+
+· Code Reusability
+
+· Easier collaboration
