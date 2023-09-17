@@ -1,0 +1,5 @@
+C:\Users\Veer\Desktop\Design_Pattren\SOLID_Principal_Code_Example\obj\Debug\net6.0\SOLID_Principal_Code_Example.csproj.AssemblyReference.cache
+C:\Users\Veer\Desktop\Design_Pattren\SOLID_Principal_Code_Example\obj\Debug\net6.0\SOLID_Principal_Code_Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Veer\Desktop\Design_Pattren\SOLID_Principal_Code_Example\obj\Debug\net6.0\SOLID_Principal_Code_Example.AssemblyInfoInputs.cache
+C:\Users\Veer\Desktop\Design_Pattren\SOLID_Principal_Code_Example\obj\Debug\net6.0\SOLID_Principal_Code_Example.AssemblyInfo.cs
+C:\Users\Veer\Desktop\Design_Pattren\SOLID_Principal_Code_Example\obj\Debug\net6.0\SOLID_Principal_Code_Example.csproj.CoreCompileInputs.cache
